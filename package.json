@@ -1,0 +1,37 @@
+{
+  "name": "silanis-lottery",
+  "version": "1.0.0",
+  "description": "Recruiting Test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "silanis",
+    "lottery",
+    "Recruiting",
+    "Test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imbni/silanis-lottery"
+  },
+  "author": {
+    "name": "Mohammad Bagherinasab",
+    "email": "imbni@yahoo.com"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "silanis-lottery": "main.js"
+  },
+  "readmeFilename": "Readme.md",
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "dependencies": {
+    "chalk": "^1.1.0",
+	"readline-sync": "latest",
+	"cli-table" : "latest"
+  }
+}
